@@ -1,0 +1,115 @@
+body {
+    background: #ffffff; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    height: 100vh; 
+    overflow-y: auto;
+}
+
+#head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000da; 
+    color: #fff; 
+    height: 8vh; 
+    border-radius: 20px;
+    width: 100%; 
+    max-width: 380px;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 380px;
+    gap: 20px;
+    width: 100%; 
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%; 
+    max-width: 200px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: thick 2px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#rollDice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(203, 100%, 50%); 
+    border: none;
+    border-radius: 10px;
+    color: #fff; 
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: hsl(203, 100%, 50%) 0px 4px 10px;
+}
+
+#rollDice:hover {
+    background-color: hsl(203, 100%, 50%); 
+    animation: pop 0.5s ease 0s 1 forwards;
+}
+
+@keyframes pop {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#Value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #cfcdcd62; ; 
+    color: #000;
+    height: fit-content;
+    border-radius: 25px;
+    flex-wrap: initial;
+    width: 100%;
+    height:70px;
+    max-width: 380px;
+    border: solid 2px;
+}
+
+#Image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfcdcd62; 
+    border-radius: 25px;
+    height: 520px; 
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 380px;
+    width: 100%; 
+    border:solid 5px;
+}
+
+#Image img {
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.737) 0px 10px 10px; 
+}

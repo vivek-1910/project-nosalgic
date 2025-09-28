@@ -1,0 +1,114 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    padding: 0;
+}
+
+#head {
+    color: #333;
+    background-color: #fff;
+    border-radius: 20px;
+    max-width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.611);
+}
+
+
+#parameter {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#parameter > div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#passwordLength{
+    width: 50px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px
+}
+#generate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#generate {
+    padding: 10px 20px;
+    background-color: #007bff;
+    box-shadow: #007bff 0px 0px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate:hover {
+    background-color: #0056b3;
+    animation: pop 0.1s ease 0s 1 forwards;
+}
+@keyframes pop{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+#output {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: #333 0px 0px 4px ;
+}
+
+#copyButton {
+    height: 40px;
+    width: 90px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #007bff 0px 0px 10px;
+    margin-bottom: 4px;
+}
+#copyButton:hover{
+    animation: pop 0.1s ease 0s 1 forwards;
+}

@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#head{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    max-width: 360px;
+    height: 50px;
+    margin-top: 0px;
+    padding-top:8px;
+    transform: translateY(30px);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+    margin: auto;
+    border-radius: 20px;
+    max-width: 360px;
+    margin-top:60px;
+    height:300px ;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px;
+}
+
+#div1{
+    padding-bottom: 20px;
+    max-width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    max-width:300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:15px ;
+    border:solid 2px;
+    font-size: 2rem;
+    box-shadow: rgb(0, 0, 0) 0px 1px 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+#start{
+    background-color: rgb(0, 255, 0);
+    border: none;
+    border-radius: 20px 5px 5px 20px;
+    height: 40px;
+    width:100px;
+    font-size: 1.1rem;
+    font-weight: 3;
+    box-shadow: rgb(0, 0, 0) 0px 5px 10px;
+}
+
+#start:hover{
+    animation: pop 0.5s ease 0s 1 forwards;
+}
+
+#pause{
+    background-color: rgb(0, 229, 255);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width:90px;
+    font-size: 1.1rem;
+    font-weight: 3;
+    box-shadow: rgb(0, 0, 0) 0px 5px 10px;
+}
+
+#pause:hover{
+    animation: pop 0.5s ease 0s 1 forwards;
+}
+
+#reset{
+    background-color: red;
+    border: none;
+    border-radius: 5px 20px 20px 5px;
+    height: 40px;
+    width:100px;
+    font-size: 1.1rem;
+    font-weight: 3;
+    box-shadow: rgb(0, 0, 0) 0px 5px 10px;
+}
+
+#reset:hover{
+    animation: pop 0.5s ease 0s 1 forwards;
+}
+
+@keyframes pop{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}

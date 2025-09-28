@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#head{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: initial;
+    height: 70px;
+    background-color: rgba(202, 202, 202, 0.822);
+    margin-top: auto;
+    border-radius: 10px;
+}
+
+
+body{
+    background-color: hsla(0, 3%, 87%, 0.529);
+}
+
+#from{
+    background-color: hsla(0, 0%, 16%, 0.916);
+    border-radius: 9px;
+    text-align: center;
+    height: 3em;
+    width: 10em;
+    border: none;
+    color:white;
+}
+
+#to{
+    background-color: hsla(0, 0%, 16%, 0.916);
+    border-radius: 9px;
+    text-align: center;
+    height: 3em;
+    width: 10em;
+    color:white;
+}
+
+#output{
+    background-color: rgb(206, 206, 206);
+    border-radius: 9px;
+    text-align: center;
+    height: 3em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#option{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#textbox{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    box-shadow: hsla(0, 0%, 0%, 0.919) 0px 5px 10px;
+}
+
+#submit{
+    background-color: rgb(71, 71, 71);
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transform-origin: center;
+    box-shadow: hsla(0, 0%, 0%, 0.919) 0px 5px 10px;
+    color:rgba(255, 255, 255, 0.793);
+    margin-left: 20px;
+}
+#submit:hover {
+    transform: scale(1.2);
+
+
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 110px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}

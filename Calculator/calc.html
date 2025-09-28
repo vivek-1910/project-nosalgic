@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="calc.css">
+    <h1 id ="head">IPhone Ultra Pro Max</h1>
+    <div id="calc">
+        <div>
+            <input id="display" placeholder="0" readonly oninput="adjustPadding()">
+        </div>
+        <div id="buttons">
+            <div id="row1">
+                <button id="clear" class="button" onclick="clearDisplay()">AC</button>
+                <button id="plusminus" class="button" onclick="plusminus()">+/-</button>
+                <button id="percent" class="button" onclick="percent()">%</button>
+                <button id="divide" class="button" onclick="appendTo(`÷`)">÷</button>
+            </div>
+            <div id="row2">
+                <button id="seven" class="button" onclick="appendTo(7)">7</button>
+                <button id="eight" class="button" onclick="appendTo(8)">8</button>
+                <button id="nine" class="button" onclick="appendTo(9)">9</button>
+                <button id="multiply" class="button" onclick="appendTo(`×`)">×</button>
+            </div>
+            <div id="row3">
+                <button id="four" class="button" onclick="appendTo(4)">4</button>
+                <button id="five" class="button" onclick="appendTo(5)">5</button>
+                <button id="six" class="button" onclick="appendTo(6)">6</button>
+                <button id="minus" class="button" onclick="appendTo(`-`)">-</button>
+            </div>
+            <div id="row4">
+                <button id="one" class="button" onclick="appendTo(1)">1</button>
+                <button id="two" class="button" onclick="appendTo(2)">2</button>
+                <button id="three" class="button" onclick="appendTo(3)">3</button>
+                <button id="plus" class="button" onclick="appendTo(`+`)">+</button>
+            </div>
+            <div id="row5">
+                <button id="zero" class="button" onclick="appendTo(0)">0</button>
+                <button id="decimal" class="button" onclick="appendTo(`.`)">.</button>
+                <button id="equal" class="button" onclick="calc()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

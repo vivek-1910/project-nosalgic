@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #5e3dff, #b768f8);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            padding-bottom: 100px; 
+        }
+
+        .project {
+            width: 300px; 
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.203);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-15px);
+        }
+
+        .project a {
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            color: #373737;
+        }
+
+        footer {
+            background: linear-gradient(to right, #5e3dff, #b768f8);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Web Projects</h1>
+    </header>
+    <div class="projects">
+        <div class="project">
+            <a href="Temperature convertion/temp.html">
+                <h2>Temperature Conversion</h2>
+                <p>A simple tool to convert between different temperature units.</p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="DiceRoller/diceRoll.html">
+                <h2>Dice Roller</h2>
+                <p>Roll virtual dice to get random numbers.</p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="Password Generator/password.html">
+                <h2>Password Generator</h2>
+                <p>Generate strong and secure passwords.</p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="Clock/Clock.html">
+                <h2>Digital Clock</h2>
+                <p>A simple digital clock to display current time.</p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="StopWatch/stopwatch.html">
+                <h2>Stopwatch</h2>
+                <p>Track elapsed time with this digital stopwatch.</p>
+            </a>
+        </div>
+        <div class="project">
+            <a href="Calculator/calc.html">
+                <h2>Simple Calcultor</h2>
+                <p>Simple Calculator For Easy Use.</p>
+            </a>
+        </div>
+        
+    </div>
+    <footer>
+        <p>Powered By Vivek 😎✌️</p>
+    </footer>
+</body>
+</html>
